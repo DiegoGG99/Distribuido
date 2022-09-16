@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="140.0" prefWidth="262.0" style="-fx-background-color: linear-gradient(to right, black, white);" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="diego.middle.NodeGeneratorController">
+    <Button fx:id="newNodeBtn" layoutX="102.0" layoutY="83.0" mnemonicParsing="false" onAction="#newNode" style="-fx-background-color: linear-gradient(to right, black, red); -fx-background-radius: 50;" text="Generar" textFill="WHITE" />
+    <Label layoutX="22.0" layoutY="35.0" style="-fx-background-color: black; -fx-background-radius: 10;" text="Generador de nodos" textFill="WHITE">
+        <font>
+            <Font size="24.0" />
+        </font>
+    </Label>
+</AnchorPane>
